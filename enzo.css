@@ -1,0 +1,113 @@
+body{
+background:#d8d8d8;
+font-family:Comic Sans MS;
+margin:0;
+text-align:center;
+}
+
+/* HEADER */
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#e7cfa4;
+padding:15px 40px;
+border-bottom:4px solid #6aa3d8;
+}
+
+.header h1{
+color:green;
+}
+
+.logo{
+height:70px;
+}
+
+/* MENU */
+
+.menu{
+display:flex;
+justify-content:center;
+gap:50px;
+background:#6aa3d8;
+padding:10px;
+}
+
+.menu a{
+text-decoration:none;
+color:#002244;
+font-weight:bold;
+color:red;
+}
+
+/* INTRODUÇÃO */
+
+.introducao{
+width:900px;
+margin:auto;
+padding:20px;
+}
+
+/* LIVROS */
+
+.livros-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:20px;
+}
+
+.livros-container img{
+height:220px;
+}
+
+/* VIDEOS */
+
+.video-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:20px;
+}
+
+/* CONTATOS */
+
+.contatos table{
+margin:auto;
+border:2px dashed red;
+padding:10px;
+}
+
+th, td{
+border:1px solid gray;
+padding:6px 15px;
+}
+
+/* LINKS */
+
+.links{
+background:yellow;
+width:350px;
+margin:30px auto;
+padding:10px;
+}
+
+/* FOOTER */
+
+.footer{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#e7cfa4;
+padding:15px 40px;
+margin-top:20px;
+}
+
+.footer img{
+height:60px;
+}
+
+.footer p{
+flex:1;
+}
